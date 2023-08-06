@@ -1,0 +1,42 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: red;
+}
+
+.nav-links{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    width: 15vw;
+}
+
+.nav-link{
+    border: 1px solid black;
+}
+
+.nav-link a{
+    background-color: black;
+    display: grid;
+    height: 100%;
+    place-content: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.show-nav{
+    display: grid;
+}

@@ -44,14 +44,14 @@ a{
 }
 
 .close-btn{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: red;
 }
 .side-bar{
     display: none;
     position: fixed;
     right: 0;
-    top: 0;
+    top: 2rem;
     background: black;
     padding: 1rem 0;
 }

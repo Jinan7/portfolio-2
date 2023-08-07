@@ -31,7 +31,6 @@ a{
 .header-text{
     background-color: black;
     color: white;
-    padding: 0.1rem 1rem;
 }
 
 .main{
@@ -43,23 +42,27 @@ a{
 .nav-btn{
     font-size: 2rem;
 }
+
+.close-btn{
+    font-size: 1.5rem;
+    color: red;
+}
 .side-bar{
     display: none;
     position: fixed;
     right: 0;
     top: 0;
+    background: black;
+    padding: 1rem 0;
 }
 
 .side-links{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 100vh;
+    height: 50vh;
     width: 15vw;
 }
 
-.side-link{
-    border: 1px solid black;
-}
 .side-link a{
     background-color: black;
     display: grid;

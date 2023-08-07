@@ -9,6 +9,7 @@ body{
 }
 p{
     margin-bottom: 0.5rem;
+    color: white;
 }
 h1,h2,h3,h4{
     margin-bottom: 1rem;
@@ -169,4 +170,15 @@ a{
     display: grid;
     gap: 1rem;
     justify-content: start;
+}
+
+.about-section {
+    background: black;
+    width: 100vw;
+}
+
+.projects-section{
+    height: 100vh;
+    width: 100vw;
+    background-color:antiquewhite;
 }
